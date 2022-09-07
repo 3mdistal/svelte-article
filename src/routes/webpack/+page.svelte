@@ -11,4 +11,10 @@
     .wrapper {
         padding: 6em;
     }
+
+    @media screen and (max-width: 600px) {
+        .wrapper {
+            padding: 2em;
+        }
+    }
 </style>

@@ -47,6 +47,7 @@
         background-color: black;
         margin: 0;
         overflow-x: hidden;
+        padding: 0;
     }
 
     :global(h1, h2) {
