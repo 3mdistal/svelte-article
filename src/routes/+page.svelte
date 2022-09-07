@@ -50,7 +50,6 @@
     :global(body) {
         background-color: black;
         margin: 0;
-        overflow-x: hidden;
         padding: 0;
     }
 
