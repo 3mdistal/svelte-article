@@ -1,8 +1,10 @@
 <script>
     import Article from "../markdown/article.md";
+    import Article2 from "../markdown/article2.md";
     import Author from "../partials/author.svelte";
     import Date from "../partials/date.svelte";
     import FurtherReadings from "../partials/further-readings.svelte";
+    import Survey from "../partials/survey.svelte"
 </script>
 
 <svelte:head>
@@ -19,6 +21,8 @@
     <article>
         <div class="article-container">
             <Article />
+            <Survey />
+            <Article2 />
         </div>
         <div class="author-container">
             <Author
