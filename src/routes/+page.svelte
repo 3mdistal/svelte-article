@@ -52,6 +52,10 @@
         margin: 0;
         padding: 0;
     }
+    
+    :global(main) {
+        overflow-x: hidden;
+    }
 
     :global(h1, h2) {
         font-family: "Inter", sans-serif;
