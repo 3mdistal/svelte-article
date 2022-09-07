@@ -2,6 +2,7 @@
     import Article from "../markdown/article.md";
     import Author from "../partials/author.svelte";
     import Date from "../partials/date.svelte";
+    import FurtherReadings from "../partials/further-readings.svelte";
 </script>
 
 <svelte:head>
@@ -20,9 +21,18 @@
             <Article />
         </div>
         <div class="author-container">
-            <Author />
+            <Author
+                author="Alice Alexandra Moore"
+                imageAlt="Alice Alexandra Moore"
+                imageURL="/images/author-photo.jpg"
+                twitterHandle="@tempoimmaterial"
+                twitterURL="https://twitter.com/tempoimmaterial"
+            />
         </div>
     </article>
+    <footer>
+        <FurtherReadings />
+    </footer>
 </main>
 
 <style>
@@ -36,6 +46,7 @@
     :global(body) {
         background-color: black;
         margin: 0;
+        overflow-x: hidden;
     }
 
     :global(h1, h2) {
@@ -70,17 +81,17 @@
     }
 
     :global(code) {
-        font-family: 'Menlo', 'Monaco', 'Courier New', Courier, monospace;
+        font-family: "Menlo", "Monaco", "Courier New", Courier, monospace;
         color: rgb(121, 255, 225);
-        font-size: .9em;
+        font-size: 0.9em;
     }
 
     :global(code)::before {
-        content: '`';
+        content: "`";
     }
 
     :global(code)::after {
-        content: '`';
+        content: "`";
     }
 
     :global(img) {
@@ -98,7 +109,7 @@
     :global(.blockquote) {
         font-family: Inter, sans-serif;
         line-height: 1.4;
-        border-left: .25px solid #666666;
+        border-left: 0.25px solid #666666;
         padding: 2em 0 2em 2em;
         margin-left: 48px;
     }
@@ -132,7 +143,7 @@
         color: rgb(136, 136, 136);
         white-space: pre;
     }
-    
+
     article {
         display: flex;
         max-width: 1248px;
@@ -183,9 +194,14 @@
         justify-items: flex-start;
     }
 
+    footer {
+        border-top: 0.25px solid rgb(50, 50, 50);
+    }
+
     :global(.ripple) {
         display: block;
-        animation: ripple 5s linear alternate infinite, shrink 3s linear alternate infinite;
+        animation: ripple 5s linear alternate infinite,
+            shrink 3s linear alternate infinite;
     }
 
     @media screen and (max-width: 960px) {
@@ -245,12 +261,20 @@
     }
 
     @keyframes ripple {
-        from {color: rgb(121, 255, 225)}
-        to {color: white}
+        from {
+            color: rgb(121, 255, 225);
+        }
+        to {
+            color: white;
+        }
     }
 
     @keyframes shrink {
-        from {transform: scale(1)}
-        to {transform: scale(.98)}
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(0.98);
+        }
     }
 </style>

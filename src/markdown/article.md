@@ -1,4 +1,10 @@
+<script>
+  import Survey from "../partials/survey.svelte"
+</script>
+
 *With its invention of component framework as compiler, its use of efficient, idiomatic syntax, its native handling of reactive state in stores, and its Vite-driven meta framework, [Svelte](https://svelte.dev) has innovated far into the future of web development.*
+
+<a href="https://svelte.dev" style="position: relative; left: -40%"><img src="/images/svelte.webp" alt="Svelte" style="width: 152%"/></a>
 
 ## Svelte drives devs towards smaller, faster apps.
 
@@ -52,6 +58,10 @@ Svelte positions itself as an easy next step for those wanting to jump from web 
 That’s not just great for new devs. Plenty of seasoned devs have talked about how easy Svelte is to pick up. I found myself converting several detailed React components on Day One of learning the language. All this makes hiring and onboarding easier than ever for teams who want to make the switch.
 
 Lowering the barriers to entry is great for any industry, and in the world of web dev, the future looks bright for people with coding *and* non-coding backgrounds to make manifest their digital ideas. More languages and frameworks will take up the mantle Svelte has elegantly expressed, making sure that, in addition to being effective tools, they are efficient, usable, and well-documented.
+
+### What about you?
+
+<Survey />
 
 ## <span class="ripple">Svelte treats motion as a first-class citizen.</span>
 

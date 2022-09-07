@@ -1,10 +1,18 @@
+<script>
+    export let imageURL
+    export let imageAlt
+    export let author
+    export let twitterHandle
+    export let twitterURL
+</script>
+
 <p class="gray">Posted by</p>
 <div class="author">
-    <img src="/images/author-photo.jpg" alt="Alice Alexandra Moore" />
+    <img src={imageURL} alt={imageAlt} />
     <div class="author-name">
-        <p class="strong">Alice Alexandra Moore</p>
-        <a class="gray" title="Twitter" href="https://twitter.com/tempoimmaterial">
-            @tempoimmaterial
+        <p class="strong">{author}</p>
+        <a class="gray" title="Twitter" href={twitterURL}>
+            {twitterHandle}
         </a>
     </div>
 </div>
