@@ -69,7 +69,16 @@ Imagine a future web where motion *just works*.
 
 Rich Harris, the creator of Svelte, terms Sveltekit apps as *transitional apps* in a [talk for Jamstack Conference](https://www.youtube.com/watch?v=860d8usGC0o) in late 2021:
 
+<div class="quote-flex">
+<a class="info-flex" href="https://twitter.com/Rich_Harris?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+  <img class="circle" src="/images/rich-harris.jpg" />
+  <div class="name-flex">
+    <p class="name">Rich Harris</p>
+    <p class="role">Svelte Founder</p>
+  </div>
+</a>
 <blockquote>Transitional apps sample elements from both traditional and modern architecture. The term is borrowed from interior design’s framing of <em>transitional design</em>. Transitional apps are, like multi-page apps, server-side rendered for fast initial loads, resilient since they work without JS by default, and provide a consistent experience with accessibility features built in. But like a single-page application, they also have a single codebase, fast navigation, persistent elements, and client-side state management.</blockquote>
+</div>
 
 In the future, no one wants to maintain multiple codebases for the same project. Sveltekit, through its [intuitive adapter system](https://kit.svelte.dev/docs/adapters), offers a *build once, deploy anywhere* approach. By default `adapter-auto` configures your project to deploy on major Edge platforms like [Vercel](https://vercel.com/guides/deploying-svelte-with-vercel), [Netlify](https://docs.netlify.com/integrations/frameworks/sveltekit/), and [Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/), but you can manually set the adapter to force static site generation or a node server.
 
