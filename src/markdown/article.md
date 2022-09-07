@@ -18,7 +18,7 @@ If you’ve worked on any sort of complex application, you know how many tens of
 
 Take a look at this partial component, written in React:
 
-<iframe src="https://codesandbox.io/embed/inspiring-flower-ozuqzw?codemirror=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark&view=split"
+<iframe src="https://codesandbox.io/embed/inspiring-flower-ozuqzw?codemirror=1&fontsize=14&hidenavigation=1&module=%2FApp.js&theme=dark&view=split"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="inspiring-flower-ozuqzw"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
@@ -45,7 +45,7 @@ As the web continues to evolve as a primary mode of human communication, develop
 
 Maybe we don’t know much about the future of the web, but we do know an awful lot about its history. In the past few years, accessing and creating the web has become easier than ever, with no- and low-code solutions prevailing.
 
-Svelte positions itself as an easy next step for those wanting to jump from web builders into more customizable solutions. With familiarity of HTML, CSS (or a streamlined styling like Tailwind), and a basic grasp of JavaScript, anyone can jump on the [Svelte playground](https://svelte.dev/tutorial/basics) and start learning.
+Svelte positions itself as an easy next step for those wanting to jump from web builders into more customizable solutions. With familiarity of HTML, CSS (or a streamlined styling like Tailwind), and a basic grasp of JavaScript, anyone can jump on the [Svelte REPL](https://svelte.dev/tutorial/basics) and start learning.
 
 (If you loved the Svelte tutorial, rest assured that the team plans to make a similar interactive learning tool for the [Sveltekit](https://kit.svelte.dev) meta framework.)
 
@@ -61,9 +61,9 @@ We all know how much of a pain it is to add and remove elements from the DOM wit
 
 When transitions and animations are [built into the framework](https://svelte.dev/tutorial/transition) itself, however, and that framework compiles to native web languages, motion feels _good_. In Svelte, simple fades are two words of code in the DOM element: `transition: fade`. Want to defer animations to sequence them one after another? There’s a [native way to do it](https://svelte.dev/tutorial/deferred-transitions).
 
-For anything Svelte hasn’t already imagined, you can either use its fantastic CSS and JS animation support to write your own animation, import a 3rd-party library like [Motion One](https://motion.dev) (which works great with Svelte), or wait until 4.0, where the devs have talked about wanting to upgrade animations even more.
+For anything Svelte hasn’t already imagined, you can either use its fantastic CSS and JS animation support to write your own animation, import a 3rd-party library like [Motion One](https://motion.dev) (which works great with Svelte), or wait until 4.0, where the devs have talked about wanting to upgrade animations even more. Imagine a future web where motion *just works*.
 
-Imagine a future web where motion *just works*.
+<a href="https://motion.dev"><img src="/images/motion-one.jpeg" alt="Motion One" /></a>
 
 ## Sveltekit offers flexibility from a single codebase.
 
@@ -77,7 +77,7 @@ Rich Harris, the creator of Svelte, terms Sveltekit apps as *transitional apps* 
     <p class="role">Svelte Founder</p>
   </div>
 </a>
-<blockquote>Transitional apps sample elements from both traditional and modern architecture. The term is borrowed from interior design’s framing of <em>transitional design</em>. Transitional apps are, like multi-page apps, server-side rendered for fast initial loads, resilient since they work without JS by default, and provide a consistent experience with accessibility features built in. But like a single-page application, they also have a single codebase, fast navigation, persistent elements, and client-side state management.</blockquote>
+<blockquote class="blockquote">Transitional apps sample elements from both traditional and modern architecture. The term is borrowed from interior design’s framing of <em>transitional design</em>. Transitional apps are, like multi-page apps, server-side rendered for fast initial loads, resilient since they work without JS by default, and provide a consistent experience with accessibility features built in. But like a single-page application, they also have a single codebase, fast navigation, persistent elements, and client-side state management.</blockquote>
 </div>
 
 In the future, no one wants to maintain multiple codebases for the same project. Sveltekit, through its [intuitive adapter system](https://kit.svelte.dev/docs/adapters), offers a *build once, deploy anywhere* approach. By default `adapter-auto` configures your project to deploy on major Edge platforms like [Vercel](https://vercel.com/guides/deploying-svelte-with-vercel), [Netlify](https://docs.netlify.com/integrations/frameworks/sveltekit/), and [Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site/), but you can manually set the adapter to force static site generation or a node server.
@@ -100,7 +100,9 @@ It’s no secret there’s a problem with open source. The unpaid labor in OSS o
 
 What open source developers need, more than anything, is the time and space to work on their projects. Recently, [Vercel hired Rich Harris](https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte) to work on Svelte full-time and Steph Dietz in their DevRel team to advocate for the software. No shadowy deals or requirements that Svelte be Vercel’s property—just a company wanting to support a technology that’s helping them (and everyone else).
 
-Though there’s a long road to travel in figuring out how best ethically to support OSS, hiring devs to work full time on their passion projects has to be a step in the right direction.
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">SvelteKit is progressing. Join <a href="https://twitter.com/Rich_Harris?ref_src=twsrc%5Etfw">@Rich_Harris</a> for Friday&#39;s keynote at Svelte Summit.<br><br>Try the latest SvelteKit changes on Vercel today in under a minute.<a href="https://t.co/HLWlX9ki2Y">https://t.co/HLWlX9ki2Y</a> <a href="https://t.co/lKnSG1Cevs">pic.twitter.com/lKnSG1Cevs</a></p>&mdash; Vercel (@vercel) <a href="https://twitter.com/vercel/status/1567387370294755329?ref_src=twsrc%5Etfw">September 7, 2022</a></blockquote> 
+
+Though there’s a long road to travel in figuring out how best ethically to support OSS, hiring devs to work full time on their passion projects has to be a step in the right direction. Collaboration, not competition, is the future of the web.
 
 ## Svelte templates a greener web.
 

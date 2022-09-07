@@ -35,6 +35,7 @@
 
     :global(body) {
         background-color: black;
+        margin: 0;
     }
 
     :global(h1, h2) {
@@ -94,7 +95,7 @@
         height: 75px;
     }
 
-    :global(blockquote) {
+    :global(.blockquote) {
         font-family: Inter, sans-serif;
         line-height: 1.4;
         border-left: .25px solid #666666;
@@ -218,6 +219,11 @@
 
         :global(blockquote) {
             margin-right: 0;
+            margin-left: 0;
+        }
+
+        :global(.blockquote) {
+            margin-right: 0;
             margin-left: 24px;
         }
     }
@@ -228,7 +234,7 @@
             margin-top: 48px;
         }
 
-        :global(blockquote) {
+        :global(.blockquote) {
             margin-left: 0px;
             padding: 0 0 0 2em;
         }
